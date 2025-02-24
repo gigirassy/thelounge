@@ -4,26 +4,26 @@
 
 :root {
 	/* Main text color */
-	--body-color: #222;
+	--body-color: #fff;
 
 	/* Secondary text color, dimmed. Make sure to keep contrast WCAG 2.0 AA compliant on var(--window-bg-color) */
-	--body-color-muted: #767676;
+	--body-color-muted: #b274d5;
 
 	/* Background color of the whole page */
-	--body-bg-color: #415364;
+	--body-bg-color: #000;
 
 	/* Main button color. Applies to border, text, and background on hover */
-	--button-color: #84ce88;
+	--button-color: #5a308c;
 	--button-text-color-hover: #fff;
 
 	/* Color for sidebar overlay and other things that dim the viewport when something else is on top */
 	--overlay-bg-color: rgb(0 0 0 / 50%);
 
 	/* Links and link-looking buttons */
-	--link-color: #50a656;
+	--link-color: #8e55ce;
 
 	/* Background color of the main window */
-	--window-bg-color: #fff;
+	--window-bg-color: #5b5775;
 
 	/* Text color for <h2> and <h3> headings in windows */
 	--window-heading-color: #6c797a;
@@ -94,7 +94,7 @@ body {
 body {
 	background: var(--body-bg-color);
 	color: var(--body-color);
-	font: 16px -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+	font: monospace;
 	margin: 0;
 	user-select: none;
 	cursor: default;
